@@ -1,5 +1,5 @@
 {
-    "name": "tonorobo",
+    "name": "とのさまロボ",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
@@ -14,5 +14,5 @@
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "installedVersion": "workspace:1031b711-fdb3-4cc4-48b2-d0cba1487b04"
 }
