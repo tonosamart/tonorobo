@@ -15,7 +15,7 @@ namespace tonosamarobo {
     }
 
     //% blockId=say block="ロボはなす %v"
-    export function say(text:string): void {
+    export function say(text: string): void {
         serial.writeLine(text);
         basic.pause(500 * text.length + 100);
     }
@@ -35,5 +35,5 @@ namespace tonosamarobo {
         pins.servoWritePin(AnalogPin.P16, 30)
         basic.pause(500)
     }
-    
+
 }
