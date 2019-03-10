@@ -17,7 +17,7 @@ namespace tonosamarobo {
     //% blockId=say block="ロボはなす %v"
     export function say(text: string): void {
         serial.writeLine(text);
-        basic.pause(500 * text.length + 100);
+        basic.pause(200 * text.length);
     }
 
     //% blockId=left_arm block="ロボひだりて %v"
