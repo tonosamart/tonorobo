@@ -2,8 +2,8 @@
 namespace tonosamarobo {
     //% blockId=init block="ロボきどう %v"
     export function init(): void {
-        pins.servoWritePin(AnalogPin.P12, 140)
-        pins.servoWritePin(AnalogPin.P16, 30)
+        pins.servoWritePin(AnalogPin.P12, 130)
+        pins.servoWritePin(AnalogPin.P16, 40)
         serial.redirect(
             SerialPin.P2,
             SerialPin.P0,
@@ -22,17 +22,17 @@ namespace tonosamarobo {
 
     //% blockId=left_arm block="ロボひだりて %v"
     export function leftArm(): void {
-        pins.servoWritePin(AnalogPin.P12, 30)
+        pins.servoWritePin(AnalogPin.P12, 40)
         basic.pause(500)
-        pins.servoWritePin(AnalogPin.P12, 140)
+        pins.servoWritePin(AnalogPin.P12, 130)
         basic.pause(500)
     }
 
     //% blockId=right_arm block="ロボみぎて %v"
     export function rightArm(): void {
-        pins.servoWritePin(AnalogPin.P16, 140)
+        pins.servoWritePin(AnalogPin.P16, 130)
         basic.pause(500)
-        pins.servoWritePin(AnalogPin.P16, 30)
+        pins.servoWritePin(AnalogPin.P16, 40)
         basic.pause(500)
     }
 
