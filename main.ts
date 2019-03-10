@@ -11,7 +11,7 @@ namespace tonosamarobo {
         )
         basic.pause(1000)
         music.beginMelody(music.builtInMelody(Melodies.Entertainer), MelodyOptions.Once)
-        serial.writeLine("tonosamarobo kidou shimashita")
+        tonosamarobo.say("tonosama'robo/kido-shima'_shita.")
     }
 
     //% blockId=say block="ロボはなす %v"
