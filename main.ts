@@ -30,7 +30,7 @@ namespace tonosamarobo_main {
         pins.servoWritePin(AnalogPin.P16, 130)
         basic.pause(500)
     }
-    //% blockId=right_arm_down block="みぎてあげる %v"
+    //% blockId=right_arm_down block="みぎてさげる %v"
     export function rightArmDown(): void {
         pins.servoWritePin(AnalogPin.P16, 40)
         basic.pause(500)
