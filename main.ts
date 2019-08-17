@@ -86,9 +86,9 @@ namespace tonosamarobo_main {
 namespace tonosamarobo_talk {
     //% blockId=say block="ロボはなす %v"
     export function say(text: string): void {
-        basic.pause(500)
+        basic.pause(700)
         serial.writeLine(text)
-        basic.pause(250 * text.length)
+        basic.pause(200 * text.length)
     }
 
     //% blockId=say_probably_aiko block="あいこでしょ"
