@@ -50,7 +50,6 @@ namespace tonosamarobo_main {
             `)
         basic.pause(200)
         tonosamarobo_talk.say("tonosama'robo/kido-shima'_shita.")
-        basic.pause(2000)
         basic.showLeds(`
             . . . . .
             . . . . .
