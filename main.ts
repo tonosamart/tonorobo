@@ -9,9 +9,55 @@ namespace tonosamarobo_main {
             SerialPin.P0,
             BaudRate.BaudRate9600
         )
-        basic.pause(1000)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . # . .
+            . . . . .
+            . . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . . . . .
+            . . # . .
+            . # . # .
+            . . # . .
+            . . . . .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            . # . # .
+            # . . . #
+            . . . . .
+            # . . . #
+            . # . # .
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            # . . . #
+            . . . . .
+            . . . . .
+            . . . . .
+            # . . . #
+            `)
+        basic.pause(200)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.pause(200)
         tonosamarobo_talk.say("tonosama'robo/kido-shima'_shita.")
         basic.pause(2000)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
     }
 
     //% blockId=left_arm_up block="ひだりてあげる %v"
