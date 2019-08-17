@@ -124,8 +124,8 @@ namespace tonosamarobo_talk {
     export function sayThankYouVeryMuch(): void {
         tonosamarobo_talk.say("ari'gato-+gozaima'_shita.")
     }
-    //% blockId=say_thank_you block="ありがとうございます"
-    export function sayThankYou(): void {
+    //% blockId=say_thank_you_masu block="ありがとうございます"
+    export function sayThankYouMasu(): void {
         tonosamarobo_talk.say("ari'gato-+gozaima'_su.")
     }
     //% blockId=say_i_think_that_there_is_a_good_thing block="いいことあると思いますよ"
@@ -136,8 +136,8 @@ namespace tonosamarobo_talk {
     export function sayWelcome(): void {
         tonosamarobo_talk.say("irasshaima'se.")
     }
-    //% blockId=say_i_will_fortune-telling block="うらないをしますね"
-    export function sayIWillFortune-Telling(): void {
+    //% blockId=say_i_will_fortune_telling block="うらないをしますね"
+    export function sayIWillFortuneTelling(): void {
         tonosamarobo_talk.say("uranaio/shima'sune.")
     }
     //% blockId=say_thats_delicious block="おいしいね"
@@ -216,16 +216,16 @@ namespace tonosamarobo_talk {
     export function sayFauxPas(): void {
         tonosamarobo_talk.say("shippai")
     }
-    //% blockId=say_rock-paper-scissors block="じゃんけん"
-    export function sayRock-Paper-Scissors(): void {
+    //% blockId=say_rock_paper_scissors block="じゃんけん"
+    export function sayRockPaperScissors(): void {
         tonosamarobo_talk.say("jannke'nn")
     }
     //% blockId=say_jankenpon block="じゃんけんぽん"
     export function sayJankenpon(): void {
         tonosamarobo_talk.say("jannke'nnponn")
     }
-    //% blockId=say_lets_rock,_paper,_scissors block="じゃんけんをしましょう"
-    export function sayLetsRock,Paper,Scissors(): void {
+    //% blockId=say_lets_rock_paper_scissors block="じゃんけんをしましょう"
+    export function sayLetsRockPaperScissors(): void {
         tonosamarobo_talk.say("jannke'nno/shimasho'-.")
     }
     //% blockId=say_changji block="しょうきち"
@@ -260,16 +260,16 @@ namespace tonosamarobo_talk {
     export function sayScissors(): void {
         tonosamarobo_talk.say("cho'ki")
     }
-    //% blockId=say_nice_to_meet_you block="どうぞ、よろしく"
-    export function sayNiceToMeetYou(): void {
+    //% blockId=say_nice_to_meet_you_douzo block="どうぞ、よろしく"
+    export function sayNiceToMeetYouDouzo(): void {
         tonosamarobo_talk.say("do'-zo yoroshi_ku.")
     }
-    //% blockId=say_how_was_it? block="どうでしたか？"
-    export function sayHowWasIt?(): void {
+    //% blockId=say_how_was_it block="どうでしたか？"
+    export function sayHowWasIt(): void {
         tonosamarobo_talk.say("do'-de_shitaka?")
     }
-    //% blockId=say_which_one? block="どっちでしょうか？"
-    export function sayWhichOne?(): void {
+    //% blockId=say_which_one block="どっちでしょうか？"
+    export function sayWhichOne(): void {
         tonosamarobo_talk.say("do'cchidesho-ka?")
     }
     //% blockId=say_par block="パー"
@@ -308,8 +308,8 @@ namespace tonosamarobo_talk {
     export function sayPurpleColor(): void {
         tonosamarobo_talk.say("murasaki'iro")
     }
-    //% blockId=say_hooray! block="やった！"
-    export function sayHooray!(): void {
+    //% blockId=say_hooray block="やった！"
+    export function sayHooray(): void {
         tonosamarobo_talk.say("yatta ")
     }
     //% blockId=say_nice_to_meet_you block="よろしく"
@@ -340,4 +340,4 @@ namespace tonosamarobo_talk {
     export function sayPleasePressTheLeftButton(): void {
         tonosamarobo_talk.say("hidarino/botanno/o_shitekudasa'i.")
     }
-}
+} 
