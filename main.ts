@@ -1,4 +1,4 @@
-//% weight=70 icon="\uf075" color=#ee6e73 block="とのさまロボ"
+//% weight=70 icon="\uf118" color=#ee6e73 block="とのさまロボ"
 namespace tonosamarobo_main {
     //% blockId=init block="ロボきどう %v"
     export function init(): void {
@@ -82,13 +82,13 @@ namespace tonosamarobo_main {
     }
 }
 
-//% weight=70 icon="\uf075" color=#ee6e73 block="とのさまロボ：おしゃべり"
+//% weight=70 icon="\uf075" color=#6e73ee block="とのさまロボ：おしゃべり"
 namespace tonosamarobo_talk {
     //% blockId=say block="ロボはなす %v"
     export function say(text: string): void {
         basic.pause(500)
         serial.writeLine(text)
-        basic.pause(200 * text.length)
+        basic.pause(400 * text.length)
         basic.pause(500)
     }
 
