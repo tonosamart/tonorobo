@@ -86,7 +86,7 @@ namespace tonosamarobo_main {
 namespace tonosamarobo_talk {
     //% blockId=say block="ロボはなす %v"
     export function say(text: string): void {
-        basic.pause(700)
+        basic.pause(1000)
         serial.writeLine(text)
         basic.pause(200 * text.length)
     }
