@@ -89,6 +89,7 @@ namespace tonosamarobo_talk {
         basic.pause(500)
         serial.writeLine(text)
         basic.pause(200 * text.length)
+        basic.pause(500)
     }
 
     //% blockId=say_probably_aiko block="あいこでしょ"
