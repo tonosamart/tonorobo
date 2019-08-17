@@ -42,10 +42,10 @@ namespace tonosamarobo_main {
             `)
         basic.pause(200)
         basic.showLeds(`
-            # # # # #
-            # # # # #
             . . # . .
-            . . # . .
+            . # # # .
+            # # # # #
+            . # # # .
             . . # . .
             `)
         basic.pause(200)
@@ -88,8 +88,7 @@ namespace tonosamarobo_talk {
     export function say(text: string): void {
         basic.pause(500)
         serial.writeLine(text)
-        basic.pause(400 * text.length)
-        basic.pause(500)
+        basic.pause(350 * text.length)
     }
 
     //% blockId=say_probably_aiko block="あいこでしょ"
